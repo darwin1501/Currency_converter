@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/breakpoints.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <main>
+        <div class="card-container">
+            <div class="card">
+                <p class="sm-txt">Data provided by <a href="https://exchangeratesapi.io">Foreign exchange rates API</a></p>
+                <div class="title-container">
+                    <h4 class="card-title">Currency Converter</h4>
+                </div>
+                <div class="components-grp">
+                    <div class="input-container">
+                        <input type="text" id="baseCurrencyInput">
+                    </div>
+                    <div class="selection-container">
+                        <select id="baseCurrencyName" aria-placeholder="select">
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="components-grp">
+                    <div class="input-container">
+                        <input type="text" id="newCurrencyInput">
+                    </div>
+                    <div class="selection-container">
+                        <select id="newCurrencyName" aria-placeholder="select">
+                        </select>
+                    </div>
+                </div>
+                <div class="result-container">
+                    <h4 class="display base-currency-txt" id="baseCurrencyTxt"></h4>
+                </div>
+                <div class="result-container">
+                    <h2 class="display new-currency-txt" id="currencyMultiplierTxt"></h2>
+                </div>
+            </div>
+        </div>
+    </main>
+<script src="js/index.js"></script>
+</body>
+</html>

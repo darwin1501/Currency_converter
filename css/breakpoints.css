@@ -1,0 +1,27 @@
+
+
+
+@media screen and (min-width: 320px){
+    .card{
+        padding: 20px
+    }
+
+    select{
+        padding: 0;
+    }
+    input{
+        padding: 0;
+    }
+}
+@media screen and (min-width: 700px){
+    .card{
+        padding: 30px;
+        margin-top: 10%;
+    }
+    select{
+        padding: 10px;
+    }
+    input{
+        padding: 10px;
+    }
+}
